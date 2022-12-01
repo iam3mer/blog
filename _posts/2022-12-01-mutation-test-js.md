@@ -1,5 +1,5 @@
 ---
-title: Test de Mutación en JavaScript
+title: Test de Mutación
 date: 2022-12-01 08:00:00 +/-TTTT
 categories: ['Buenas Practicas', 'Testing']
 tags: [javascript, mutation, testing, stryker]
