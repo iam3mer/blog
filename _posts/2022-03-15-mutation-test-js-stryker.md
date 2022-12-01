@@ -7,9 +7,9 @@ tags: [javascript, mutation, testing, stryker]
 
 Al trabajar en desarrollo de software es seguro que en algun momento has trabajado con pruebas, al menos lo habras escuchado. En general lo que más encontramos son las pruebas unitarias, pruebas de integración, pruebas funcionales, pruebas end to end; sin embargo, un tipo de prueba que quiza sea nuevo para ti son las pruebas de mutación.
 
-Las pruebas de mutación (o mutation test) te permite validar la calidad de tus pruebas automatizadas. Así es, este tipo de prueba pone a prueba tus pruebas automatizadas, parece un trabalenguas no? El tema es más simple de lo que parece. Lo que hacen estas pruebas es cambiar partes del codigo de forma dinamica, de esta manera se introducen smells en el codigo original y con esto se consigue verificar si nuestras pruebas automatizadas "detectan" estos cambios y fallan como deberían. Con esto es posible detectar puntos debiles para mejorar las pruebas y cubrir los casos.
+Las pruebas de mutación te permite validar la calidad de tus pruebas automatizadas. Así es, este tipo de prueba pone a prueba tus pruebas automatizadas, parece un trabalenguas no? El tema es más simple de lo que parece. Lo que hacen estas pruebas es cambiar partes del codigo de forma dinamica, de esta manera se introducen smells en el codigo original y con esto se consigue verificar si nuestras pruebas automatizadas "detectan" estos cambios y fallan como deberían. Con esto es posible detectar puntos debiles para mejorar las pruebas y cubrir los casos.
 
-Para entenderlo mejor pensemos en una aplicación que tiene una función `hasOnlyMultipleFiveNumbers` recibe un array de numeros enteros y retorna `true` cuando todos los numeros son multiplos de 5, así:
+Para entenderlo mejor pensemos en una aplicación que tiene una función hasOnlyMultipleFiveNumbers recibe un array de numeros enteros y retorna true cuando todos los numeros son multiplos de 5, así:
 
 ```javascript
 module.exports = function hasOnlyMultipleFiveNumbers(array) {
@@ -39,8 +39,8 @@ La pregunta que nos debemos hacer es que tan buena es esta prueba. Podríamos pe
 Un ejemplo de lo que haría la prueba de mutación, es cambiar el criterio con el que se esta validando que el numero sea multiplo de 5, así:
 
 ```javascript
-- return array.every(number => number % 5 == 0)
-+ return array.every(number => true)
+return array.every(number => number % 5 == 0)
+return array.every(number => true)
 ```
 
 Una vez realizado el cambio, el test de mutación ejecutara la prueba unitaria. Al fallar las pruebas unitarias estaremos comprobando que estas son lo suficiente mente buenas para detectar este cambio, de lo contrario, se debe mejorar la prueba unitaria para evitar que los smells pasen.
