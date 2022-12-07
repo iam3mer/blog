@@ -2,7 +2,7 @@
 title: Test de Mutación
 date: 2022-12-01 08:00:00 +/-TTTT
 categories: ['Buenas Practicas', 'Testing']
-tags: [javascript, mutation, testing, stryker]
+tags: [javascript, mutation, testing]
 ---
 
 Al trabajar en desarrollo de software es seguro que en algún momento has trabajado con pruebas, al menos lo habrás escuchado. En general lo que más encontramos son pruebas unitarias, pruebas de integración, pruebas funcionales, pruebas end to end; sin embargo, un tipo de prueba que quizá sea nueva para ti son las pruebas de mutación.
