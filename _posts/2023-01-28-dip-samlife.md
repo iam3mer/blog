@@ -12,3 +12,7 @@ La climatización está diseñada para controlar la temperatura y la humedad del
 Por ejemplo, en lugar de que la climatización dependa directamente de un sistema de bombas de calor o de un sistema de refrigeración, se crea una interfaz que le permite a la climatización interactuar con cualquier sistema que cumpla con esta interfaz, independientemente de su especificación técnica.
 
 Este ejemplo ilustra cómo el principio DIP se aplica en la vida real, al asegurarse de que los módulos altos de un sistema dependan de las abstracciones y no de las implementaciones concretas. De esta manera, se mejora la flexibilidad, la escalabilidad y la mantenibilidad del sistema a largo plazo.
+
+[Volver a la entrada original de SOLID][solid-initial]
+
+[solid-initial]: https://iam3mer.xyz/blog/posts/solid

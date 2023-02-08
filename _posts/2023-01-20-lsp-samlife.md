@@ -12,3 +12,7 @@ Supongamos que tenemos una caja registradora que acepta monedas para realizar pa
 Si creamos una nueva moneda, por ejemplo una moneda de adamantio, y queremos usarla en la caja registradora, la caja registradora debería aceptarla sin ningún problema, siempre y cuando cumpla con los requisitos básicos mencionados anteriormente. Esta nueva moneda es una clase derivada de la clase "moneda" y debe ser sustituible por cualquier otra moneda que cumpla con los requisitos básicos.
 
 Este es un ejemplo simple que ilustra cómo el principio LSP se aplica en la vida real. En resumen, se trata de asegurarse de que un objeto derivado pueda ser usado en cualquier lugar donde se espera el objeto base, sin interrumpir el correcto funcionamiento del sistema.
+
+[Volver a la entrada original de SOLID][solid-initial]
+
+[solid-initial]: https://iam3mer.xyz/blog/posts/solid

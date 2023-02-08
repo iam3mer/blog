@@ -13,3 +13,7 @@ Por ejemplo, una impresora no necesita tener acceso a los puertos de audio o a l
 En este caso, se puede aplicar el principio ISP al diseñar interfaces separadas para cada dispositivo externo, con solo los puertos y conectores que necesitan para funcionar correctamente. De esta manera, se evita la creación de interfaces innecesariamente complejas y se mejora la eficiencia y la claridad del sistema.
 
 Este ejemplo ilustra cómo el principio ISP se aplica en la vida real, al asegurarse de que un objeto o sistema cumpla con las interfaces específicas y relevantes para cada cliente o usuario, y que no tenga más funciones o componentes que los requeridos. De esta manera, se mejora la claridad, la eficiencia y la facilidad de uso del sistema.
+
+[Volver a la entrada original de SOLID][solid-initial]
+
+[solid-initial]: https://iam3mer.xyz/blog/posts/solid

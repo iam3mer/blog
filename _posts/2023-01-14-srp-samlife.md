@@ -11,3 +11,7 @@ La responsabilidad del chef se divide en varias tareas específicas, cada una de
 Cada miembro del equipo de cocina tiene una única responsabilidad y todas sus tareas están alineadas con esa responsabilidad. De esta manera, se asegura que ningún miembro del equipo se sienta abrumado o sobrecargado y se aumenta la eficiencia del equipo en general.
 
 Este ejemplo ilustra cómo el principio SRP se aplica en la vida real, al asegurarse de que cada persona o entidad tenga una única responsabilidad clara y que todas sus acciones estén alineadas con esa responsabilidad. Se asegura que cada persona o entidad cumpla con su papel de manera eficiente y efectiva.
+
+[Volver a la entrada original de SOLID][solid-initial]
+
+[solid-initial]: https://iam3mer.xyz/blog/posts/solid

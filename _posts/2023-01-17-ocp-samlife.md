@@ -11,3 +11,7 @@ Por ejemplo, puedes enchufar un ventilador en el toma corriente sin tener que ha
 Sin embargo, si quieres cambiar la ubicación del toma corriente o cambiar la forma en que se conecta a la red eléctrica, debes contratar a un electricista para realizar la modificación.
 
 Este ejemplo ilustra cómo el principio OCP se aplica en la vida real, al asegurarse de que un objeto o sistema esté abierto a la adición de nuevos componentes o funciones, pero cerrado a su modificación o cambio. De esta manera, se asegura la integridad y la estabilidad del sistema a largo plazo.
+
+[Volver a la entrada original de SOLID][solid-initial]
+
+[solid-initial]: https://iam3mer.xyz/blog/posts/solid
